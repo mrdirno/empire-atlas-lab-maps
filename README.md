@@ -8,7 +8,7 @@ Borders come from [historical-basemaps](https://github.com/aourednik/historical-
 ## Films
 | Film | Script | Snapshots used |
 |---|---|---|
-| How long did the Ottomans last? (c.1299–1922) | scripts/render_ottoman_life.py | world_1400, 1492, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1878, 1880, 1900, 1914, 1920 (`Ottoman Empire` / `Ottoman Sultanate`). 1299 is a point at Söğüt, because the data has no 1299 polygon |
+| How long did the Ottomans last? (c.1299–1922) | scripts/render_ottoman_life.py | world_1400, 1492, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1878, 1880, 1900, 1914, 1920 (`Ottoman Empire` / `Ottoman Sultanate`), plus every polygon of world_1700 and world_1914 as the land layer. 1299 is a point at Söğüt, because the data has no 1299 polygon |
 
 Each film is drawn between two consecutive snapshots, so the borders shown between snapshot years are blends, not records.
 
