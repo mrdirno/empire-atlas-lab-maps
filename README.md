@@ -12,9 +12,14 @@ Borders come from [historical-basemaps](https://github.com/aourednik/historical-
 
 Each film is drawn between two consecutive snapshots, so the borders shown between snapshot years are blends, not records.
 
+| How long did the Byzantine Empire last? (330–1453) | scripts/render_empire_life.py + films/byzantine.json | world_400, 500, 600, 700, 800, 900, 1000, 1100, 1200, 1279, 1300, 1400 (`Eastern Roman Empire` / `Byzantine Empire`). 330 is a point at Constantinople |
+
+From film 2 on, every film uses `scripts/render_empire_life.py` with its own settings file in `films/`. `films/ottomans.json` re-renders film 1 with the general script.
+
 ## Run
 Python 3 with numpy and Pillow, plus ffmpeg:
-`python3 scripts/render_ottoman_life.py <dir with world_YYYY.geojson> <frames dir>`
+`python3 scripts/render_ottoman_life.py <dir with world_YYYY.geojson> <frames dir>` (film 1)
+`python3 scripts/render_empire_life.py <dir with world_YYYY.geojson> <frames dir> films/<film>.json` (film 2 on)
 
 ## License
 GPL-3.0, the same licence as the data. See LICENSE.

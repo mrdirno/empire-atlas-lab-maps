@@ -1,0 +1,6 @@
+{"view":[2.0,60.0,37.0],"years":[1400,1492,1500,1530,1600,1650,1700,1715,1783,1800,1815,1878,1880,1900,1914,1920],
+ "names":["Ottoman Empire","Ottoman Sultanate"],"start":1299,"end":1922,"start_point":[30.0,40.1],"peak_year":1700,"turn_year":1683,
+ "events":[[1453,1453,"1453 · CONSTANTINOPLE FALLS"],[1517,1517,"1517 · CAIRO TAKEN"],[1683,1683,"1683 · STOPPED AT VIENNA"],[1922,1922,"1922 · THE SULTANATE ENDS"]],
+ "places":{"1453":[28.98,41.01],"1517":[31.24,30.04],"1683":[16.37,48.21]},
+ "camera":{"start":[30,40],"wide":[31,38],"end":[33,39],"card_from":[31,39],"loop_to":[30,40],"z0":1.9,"z_end_add":0.55},
+ "q1":"HOW LONG DID THE","q2":"OTTOMANS LAST?","intro":"A SMALL STATE IN ANATOLIA","intro_years":41}

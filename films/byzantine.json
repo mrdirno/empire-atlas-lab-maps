@@ -1,0 +1,7 @@
+{"view":[-10.0,52.0,38.0],"years":[400,500,600,700,800,900,1000,1100,1200,1279,1300,1400],
+ "names":["Eastern Roman Empire","Byzantine Empire"],"start":330,"end":1453,"start_point":[28.98,41.01],"end_scale":0.15,"peak_year":600,"turn_year":565,
+ "events":[[565,565,"565 · LARGEST UNDER JUSTINIAN"],[1071,1071,"1071 · DEFEAT AT MANZIKERT"],[1204,1204,"1204 · CRUSADERS SACK THE CITY"],[1453,1453,"1453 · THE CITY FALLS"]],
+ "places":{"1071":[42.5,39.1],"1204":[28.98,41.01]},
+ "label_years":110,
+ "camera":{"start":[29,41],"wide":[18,38],"end":[27,40],"card_from":[28,40.5],"loop_to":[29,41],"z0":1.9,"z_end_add":0.8},
+ "q1":"HOW LONG DID THE","q2":"BYZANTINE EMPIRE LAST?","intro":"ROME'S NEW CAPITAL","intro_years":70}
